@@ -1,0 +1,11 @@
+# Site settings
+title: Nicholas Bel
+email: n.bel@berkeley.edu.
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "/site" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: n.bel
+github_username:  redT-rex
+
+# Build settings
+markdown: kramdown

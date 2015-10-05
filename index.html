@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="home">
+
+  <h1 class="page-heading" id="txt"></h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <div>Hi, my name is Nick. I am currently a <a href="https://www.berkeley.edu">UC Berkeley</a> student stdying Applied Math and Computer Science.</div>
+
+        <div>Here is a link to my <a href="CV.pdf">CV</a>.</div>
+
+        <div>You can email me at <a href="mailto:n.bel@berkeley.edu">n.bel@berkeley.edu</a>.</div>
+
+      </li>
+    {% endfor %}
+  </ul>
+
+ <!--  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>
+
